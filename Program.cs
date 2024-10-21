@@ -7,7 +7,7 @@ public class Program
         Console.WriteLine("Enter a number 0 - 10");
         string userNumber = Console.ReadLine();
         int number = Int32.Parse(userNumber);
-        if (number >= 0 || number <= 10){
+        if (number >= 0 && number <= 10){
             switch(number){
                 case 0:
                 Console.WriteLine("Zero");
